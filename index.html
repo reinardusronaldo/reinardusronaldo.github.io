@@ -17,6 +17,9 @@
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'>
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
 	<!-- CSS
    ================================================== -->
 	<link rel="stylesheet" href="css/base.css">
@@ -27,7 +30,8 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-
+	<script src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/textfit/2.4.0/textFit.min.js'></script>
 	<!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon-16x16.png">
@@ -54,7 +58,7 @@
 						<li><a class="smoothscroll" href="#about" title="">About</a></li>
 						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<!-- <li><a class="smoothscroll" href="#services" title="">Services</a></li> -->
 						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 					</ul>
 				</nav>
@@ -349,62 +353,6 @@
 
 		</div> <!-- /resume-timeline -->
 
-		<div class="row resume-timeline">
-
-			<div class="col-twelve resume-header">
-
-				<h2>Education</h2>
-
-			</div> <!-- /resume-header -->
-
-			<div class="col-twelve">
-
-				<div class="timeline-wrap">
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Bachelor Degree</h3>
-							<p>2018 - 2022</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>Binus University</h4>
-							<p>Majoring in Computer Science</p>
-							<p>Grade: 3.84/4.00 GPA</p>
-							<p>Focused on Artificial Intelligence</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Senior High School</h3>
-							<p>2015 - 2018</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>Don Bosco II</h4>
-							<p>Majoring in Science</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-				</div> <!-- /timeline-wrap -->
-
-			</div> <!-- /col-twelve -->
-
-		</div> <!-- /resume-timeline -->
-
 	</section> <!-- /features -->
 
 
@@ -426,376 +374,145 @@
 			<div class="col-twelve">
 
 				<!-- portfolio-wrapper -->
-				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<div id="folio-wrapper" class="block-mob-full stack">
 
-					<div class="bgrid folio-item">
+					<div class="bgrid grey-section add-bottom" style="border-radius: 1rem;">
 						<div class="item-wrap">
-							<img src="images/portfolio/wfy.png" alt="Wish For You">
-							<a href="#modal-01" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Wish For You</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
+							<div class="col-six">
+								<img src="images/portfolio/wfy.png" alt="Wish For You">
+								<span class="detail-web">See the <a href="https://wishforyou.com/" target="_blank">Details</a></span>
+							</div>
+							<div class="col-six">
+								<div>
+									<h3>Wish For You - Web Development</h3>
+									<p>Wishforyou is a web application for way to give and receive money for life’s important
+										celebrations. So, you can create event like wedding, birthday, and anniversary in web application.
+										People can give
+										money to that event or people can directly send money to recipient who has been registered in web
+										application. I continue developed the web application.
+									</p>
+									Tech Stack:
+									<ul>
+										<li>Laravel</li>
+										<li>MySQL</li>
+										<li>AWS</li>
+										<li>Stripe</li>
+									</ul>
+									<span class="detail-mobile">See the <a href="https://wishforyou.com/"
+											target="_blank">Details</a></span>
 								</div>
-							</a>
+							</div>
 						</div>
 					</div> <!-- /folio-item -->
 
-					<div class="bgrid folio-item">
+					<div class="bgrid grey-section add-bottom" style="border-radius: 1rem;">
 						<div class="item-wrap">
-							<img src="images/portfolio/manu.png" alt="Manucentric">
-							<a href="#modal-02" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Manucentric</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
+							<div class="col-six">
+								<img src="images/portfolio/manu.png" alt="Manucentric">
+								<span class="detail-web">See the <a href="https://www.manucentric.com/"
+										target="_blank">Details</a></span>
+							</div>
+							<div class="col-six">
+								<div>
+									<h3>Manucentric - Web Development</h3>
+									<p>I created the Manuorder features. Manucentric is a web application was designed for millworkers by
+										millworkers to be easily used by any cabinet shop. The features are there to help you to aid in your
+										production without complicating your process.
+									</p>
+									Tech Stack:
+									<ul>
+										<li>React.JS</li>
+										<li>ASP.NET</li>
+										<li>MsSQL</li>
+										<li>AWS</li>
+										<li>Stripe</li>
+									</ul>
+									<span class="detail-mobile">See the <a href="https://www.manucentric.com/"
+											target="_blank">Details</a></span>
 								</div>
-							</a>
+							</div>
 						</div>
-					</div> <!-- /folio-item -->
+					</div><!-- /folio-item -->
 
-					<div class="bgrid folio-item">
+					<div class="bgrid grey-section add-bottom" style="border-radius: 1rem;">
 						<div class="item-wrap">
-							<img src="images/portfolio/dankor.png" alt="Dankor Architecture">
-							<a href="#modal-03" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Dankor Architecture</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
+							<div class="col-six">
+								<img src="images/portfolio/dankor.png" alt="Dankor Architecture">
+								<span class="detail-web">See the <a href="https://dankor.com.au/" target="_blank">Details</a></span>
+							</div>
+							<div class="col-six">
+								<div>
+									<h3>Dankor Architecture - Web Development</h3>
+									<p>Dankor Architecture is an energetic and creative studio with extensive experience in the
+										residential
+										and commercial sectors. I continue developed the company profile for Dankor Architecture using Code
+										Igniter.
+									</p>
+									Tech Stack:
+									<ul>
+										<li>Code Igniter</li>
+										<li>CSS</li>
+										<li>Javascript</li>
+										<li>HTML</li>
+									</ul>
+									<span class="detail-mobile">See the <a href="https://dankor.com.au/"
+											target="_blank">Details</a></span>
 								</div>
-							</a>
+							</div>
 						</div>
-					</div> <!-- /folio-item -->
+					</div><!-- /folio-item -->
 
-					<div class="bgrid folio-item">
+					<div class="bgrid grey-section add-bottom" style="border-radius: 1rem;">
 						<div class="item-wrap">
-							<img src="images/portfolio/pronto.png" alt="Pronto">
-							<a href="#modal-04" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Pronto</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
+							<div class="col-six">
+								<img src="images/portfolio/mogu.png" alt="Mogu">
+								<span class="detail-web">See the <a href="https://www.moguplatform.com/"
+										target="_blank">Details</a></span>
+							</div>
+							<div class="col-six">
+								<div>
+									<h3>Mogu - Web Development</h3>
+									<p>Mogu is the application for travel agencies. I continue developed web application using React
+										Typescript for frontend and Laravel for backend, also adding payment using Stripe API.
+									</p>
+									Tech Stack:
+									<ul>
+										<li>ReactTS</li>
+										<li>Laravel</li>
+										<li>Stripe</li>
+										<li>MySQL</li>
+									</ul>
+									<span class="detail-mobile">See the <a href="https://www.moguplatform.com/"
+											target="_blank">Details</a></span>
 								</div>
-							</a>
+							</div>
 						</div>
-					</div> <!-- /folio-item -->
+					</div><!-- /folio-item -->
 
-					<div class="bgrid folio-item">
+					<div class="bgrid grey-section add-bottom" style="border-radius: 1rem;">
 						<div class="item-wrap">
-							<img src="images/portfolio/trio.png" alt="Trio Academy">
-							<a href="#modal-05" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Trio Academy</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
+							<div class="col-six">
+								<img src="images/portfolio/rhackets.jpg" alt="RHackeTS">
+							</div>
+							<div class="col-six">
+								<div>
+									<h3>RHackeTS - Mobile Apps Development</h3>
+									<p>RHackeTS helps you keeping score and player positions for badminton as an umpire easily and
+										accurately.
+										Play with your friends or become umpire for their matches, and the result will be sent to them
+										directly.
+										With RHackeTS you can keep track of all the badminton matches you played, or umpired, with the
+										statistics of each matches.
+									</p>
+									Tech Stack:
+									<ul>
+										<li>Java</li>
+										<li>Firebase</li>
+									</ul>
 								</div>
-							</a>
+							</div>
 						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/mogu.png" alt="Mogu">
-							<a href="#modal-06" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Mogu</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/gw.png" alt="Green World">
-							<a href="#modal-07" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Green World Web</h3>
-										<span class="folio-types">
-											Web Development
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/rhackets.jpg" alt="RHackeTS">
-							<a href="#modal-08" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">RHackeTS</h3>
-										<span class="folio-types">
-											Mobile Apps Development
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<!-- modal popups - begin
-	            ============================================================= -->
-					<div id="modal-01" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/wfy.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Wish For You</h4>
-							<p>Wishforyou is a web application for way to give and receive money for life’s important celebrations.
-								So, you can create event like wedding, birthday, and anniversary in web application. People can give
-								money to that event or people can directly send money to recipient who has been registered in web
-								application. I continue developed the web application. <br><br>
-								Tech Stack:
-							<ul>
-								<li>Laravel</li>
-								<li>MySQL</li>
-								<li>AWS</li>
-								<li>Stripe</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://wishforyou.com/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-01 -->
-
-					<div id="modal-02" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/manu.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Manucentric</h4>
-							<p>I created the Manuorder features. Manucentric is a web application was designed for millworkers by
-								millworkers to be easily used by any cabinet shop. The features are there to help you to aid in your
-								production without complicating your process. <br><br>
-								Tech Stack:
-							<ul>
-								<li>React.JS</li>
-								<li>ASP.NET</li>
-								<li>MsSQL</li>
-								<li>AWS</li>
-								<li>Stripe</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://www.manucentric.com/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-02 -->
-
-					<div id="modal-03" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/dankor.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Dankor Architecture</h4>
-							<p>Dankor Architecture is an energetic and creative studio with extensive experience in the residential
-								and commercial sectors. I continue developed the company profile for Dankor Architecture using Code
-								Igniter.
-								<br>
-								<br>
-								Tech Stack:
-							<ul>
-								<li>Code Igniter</li>
-								<li>CSS</li>
-								<li>Javascript</li>
-								<li>HTML</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://dankor.com.au/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-03 -->
-
-					<div id="modal-04" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/pronto.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Pronto</h4>
-							<p>Pronto is the LMS-integrated communications platform that gives you direct access to students. I added
-								and integrated payment using Stripe API. <br><br>
-								Tech Stack:
-							<ul>
-								<li>Stripe</li>
-								<li>PHP</li>
-								<li>MySQL</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://pronto.io/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-04 -->
-
-					<div id="modal-05" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/trio.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Trio Academy</h4>
-							<p>TRIO is the only yeshiva and seminary college program that has relationships with five different
-								colleges to offer students the best selection of degree options. I added payment using Stripe for Trio
-								Academy. <br><br>
-								Tech Stack:
-							<ul>
-								<li>Stripe</li>
-								<li>PHP</li>
-								<li>MySQL</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://trio.academy/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-05 -->
-
-					<div id="modal-06" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/mogu.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Mogu</h4>
-							<p>Mogu is the application for travel agencies. I continue developed web application using React
-								Typescript for frontend and Laravel for backend, also adding payment using Stripe API. <br><br>
-								Tech Stack:
-							<ul>
-								<li>ReactTS</li>
-								<li>Laravel</li>
-								<li>Stripe</li>
-								<li>MySQL</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://www.moguplatform.com/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-07 -->
-
-					<div id="modal-07" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/gw.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Green World</h4>
-							<p>I led the project as a Project Manager to create company profile web for Green World Company. <br><br>
-								Tech Stack:
-							<ul>
-								<li>Laravel</li>
-								<li>MySQL</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://greenworldglobal.co.id/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-08 -->
-
-					<div id="modal-08" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/rhackets.jpg" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>RHackeTS</h4>
-							<p>RHackeTS helps you keeping score and player positions for badminton as an umpire easily and accurately.
-								Play with your friends or become umpire for their matches, and the result will be sent to them directly.
-								With RHackeTS you can keep track of all the badminton matches you played, or umpired, with the
-								statistics of each matches. <br> <br>
-								Tech Stack:
-							<ul>
-								<li>Java</li>
-								<li>Firebase</li>
-							</ul>
-							</p>
-
-							<div class="categories">Web Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-06 -->
-
-
-					<!-- modal popups - end
-	            ============================================================= -->
+					</div><!-- /folio-item -->
 
 				</div> <!-- /portfolio-wrapper -->
 
@@ -804,6 +521,58 @@
 		</div> <!-- /portfolio-content -->
 
 	</section> <!-- /portfolio -->
+
+	<section id="testimonial" class="container grey-section">
+		<div class="testimonial mySwiper">
+			<div class="testi-content swiper-wrapper">
+				<div class="slide swiper-slide">
+					<img src="images/profile-pic.jpg" alt="" class="image" />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+						saepe provident dolorem a quaerat quo error facere nihil deleniti
+						eligendi ipsum adipisci, fugit, architecto amet asperiores
+						doloremque deserunt eum nemo.
+					</p>
+					<i class="bx bxs-quote-alt-left quote-icon"></i>
+					<div class="details">
+						<span class="name">Marnie Lotter</span>
+						<span class="job">Web Developer</span>
+					</div>
+				</div>
+				<div class="slide swiper-slide">
+					<img src="images/profile-pic.jpg" alt="" class="image" />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+						saepe provident dolorem a quaerat quo error facere nihil deleniti
+						eligendi ipsum adipisci, fugit, architecto amet asperiores
+						doloremque deserunt eum nemo.
+					</p>
+					<i class="bx bxs-quote-alt-left quote-icon"></i>
+					<div class="details">
+						<span class="name">Marnie Lotter</span>
+						<span class="job">Web Developer</span>
+					</div>
+				</div>
+				<div class="slide swiper-slide">
+					<img src="images/profile-pic.jpg" alt="" class="image" />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+						saepe provident dolorem a quaerat quo error facere nihil deleniti
+						eligendi ipsum adipisci, fugit, architecto amet asperiores
+						doloremque deserunt eum nemo.
+					</p>
+					<i class="bx bxs-quote-alt-left quote-icon"></i>
+					<div class="details">
+						<span class="name">Marnie Lotter</span>
+						<span class="job">Web Developer</span>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next nav-btn"></div>
+			<div class="swiper-button-prev nav-btn"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
 
 	<!-- contact
    ================================================== -->
@@ -871,7 +640,7 @@
 			<div class="col-six tab-full">
 				<div class="copyright">
 					<span>© Reinardus Ronaldo Raharja 2022.</span>
-					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+					<!-- <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> -->
 				</div>
 			</div>
 

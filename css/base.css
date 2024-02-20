@@ -776,13 +776,13 @@ textarea {
  * --------------------------------------------------------------- 
  */
 @media screen and (max-width:400px) {
-	.stack .bgrid {
+	/* .stack .bgrid {
 		width: 100% !important;
 		float: none !important;
 		clear: both !important;
 		margin-left: 0;
 		margin-right: 0;
-	}
+	} */
 
 }
 
