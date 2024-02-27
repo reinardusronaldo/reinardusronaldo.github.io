@@ -1492,7 +1492,7 @@ header .logo a {
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 12rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1791,7 +1791,7 @@ header .logo a {
  */
 #portfolio {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	padding-top: 0;
 	padding-bottom: 12rem;
 }
 
